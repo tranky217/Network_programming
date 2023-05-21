@@ -1,0 +1,6 @@
+hello 1111abc 1
+tranky 1111 0
+tran 1425 0
+ict 1452 1
+hust 1452 1
+soict 1111aaa 1
