@@ -1,9 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T08:23:47.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" version="21.3.2" etag="ATe1H-6ZelWBxa7g0cat" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T08:40:14.027Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="EkAMMp9xh0cTEc4MMZDU" version="21.3.2" type="github">
   <diagram name="Page-1" id="CuVX-zyMGm0V7FoODKGD">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ohs2YBJv9ZenXhvDKBvc-1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohs2YBJv9ZenXhvDKBvc-2" value="DeliveryForm&lt;br&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="125" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohs2YBJv9ZenXhvDKBvc-3" value="PlaceRushOrderScreen" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohs2YBJv9ZenXhvDKBvc-4" value="PlaceOrderScreen" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="95" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohs2YBJv9ZenXhvDKBvc-5" value="PaymentScreen" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohs2YBJv9ZenXhvDKBvc-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="Ohs2YBJv9ZenXhvDKBvc-2" target="Ohs2YBJv9ZenXhvDKBvc-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="500" y="300" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ohs2YBJv9ZenXhvDKBvc-18" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1" source="Ohs2YBJv9ZenXhvDKBvc-1" target="Ohs2YBJv9ZenXhvDKBvc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="500" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ohs2YBJv9ZenXhvDKBvc-22" value="Selected screen&lt;br&gt;" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1" source="Ohs2YBJv9ZenXhvDKBvc-4">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="500" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="198" />
+              <mxPoint x="501" y="198" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ohs2YBJv9ZenXhvDKBvc-23" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="Ohs2YBJv9ZenXhvDKBvc-22">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ohs2YBJv9ZenXhvDKBvc-24" value="Selected screen" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="310" y="269.5" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ohs2YBJv9ZenXhvDKBvc-25" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="Ohs2YBJv9ZenXhvDKBvc-24">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
